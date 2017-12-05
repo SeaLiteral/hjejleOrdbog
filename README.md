@@ -7,7 +7,7 @@ It is divided in multiple files:
 * *dansk-sammensat.json* contains multi-word briefs
 
 Also, it is still under construction, so many words are still missing, but here is some documentation:
-#Layout
+# Layout
 For speakers of Danish, this is what the layout would look like if it followed Danish spelling:
 
     S- T- P- H- * -V -P -L -T -D
@@ -27,7 +27,7 @@ Okay, here's the IPA representation of what each key would do on its own:
     s k v R * ɘ e g s n
         a ɒ ɛ ɔ
 
-#Vowels
+# Vowels
 As for vowel key combinations, here they are, and now I am just refering to what the keys are called on the US layout, I'm including random words that contain the vowel sounds):
 
 * A: /a/ (sammen: SAPB)
@@ -46,7 +46,7 @@ As for vowel key combinations, here they are, and now I am just refering to what
 * OEU: (diphtong) /ɒɪ/ (støj: STOEU)
 * AOEU: (dipthong) /aɪ/ (sejl: SAOEUL)
 
-#consonants
+# consonants
 what each consonant does on its own, refer to the IPA table, but the following sounds are worth mentioning:
 
 * -B: should add the /e/ suffix if that doesn't create ambiguity. Due to missing entries (and consonant ghosting, a feature Plover doesn't have), you may need to add this one to some words before adding other suffixes after it.
@@ -66,7 +66,7 @@ The consonant combinations work more or less like in English:
 * -PL: /m/
 * -PB: /n/
 * -PBG: /ŋ/
-#Todo
+# Todo
 * Document fingerspelling
 * Add words
 * Add briefs
