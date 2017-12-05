@@ -46,7 +46,7 @@ As for vowel key combinations, here they are, and now I am just refering to what
 * OEU: (diphtong) /ɒɪ/ (støj: STOEU)
 * AOEU: (dipthong) /aɪ/ (sejl: SAOEUL)
 
-# consonants
+# Consonants
 what each consonant does on its own, refer to the IPA table, but the following sounds are worth mentioning:
 
 * -B: should add the /e/ suffix if that doesn't create ambiguity. Due to missing entries (and consonant ghosting, a feature Plover doesn't have), you may need to add this one to some words before adding other suffixes after it.
