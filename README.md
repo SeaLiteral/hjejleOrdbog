@@ -1,5 +1,6 @@
 # hjejleOrdbog
 A Danish stenography dictionary
+License: GPLv3 or later
 
 It is divided in multiple files:
 * *dansk.json* with words
@@ -104,6 +105,6 @@ Here is a table for the letters used in Danish (for capital letters add -P):
 |å      |A*U    |
 
 # Todo
-* Sort words
 * Add words
 * Add briefs
+* Documentation in Danish
