@@ -66,7 +66,44 @@ The consonant combinations work more or less like in English:
 * -PL: /m/
 * -PB: /n/
 * -PBG: /ŋ/
+
+# Fingerspelling
+Here is a table for the letters used in Danish (for capital letters add -P):
+
+|letter|keys   |
+| :---: | :---: |
+|a      |A*     |
+|b      |PW*    |
+|c      |KR*    |
+|d      |TK*    |
+|e      |*E     |
+|f      |TP*    |
+|g      |TKPW*  |
+|h      |H*     |
+|i      |AO*E   |
+|i      |*EU    |
+|j      |KWR*   |
+|k      |K*     |
+|l      |HR*    |
+|m      |PH*    |
+|n      |TPH*   |
+|o      |O*     |
+|p      |P*     |
+|q      |KW*    |
+|r      |R*     |
+|s      |S*     |
+|t      |T*     |
+|u      |*U     |
+|v      |W*     |
+|w      |SR*    |
+|x      |KP*    |
+|y      |AO*U   |
+|z      |TKPWHR*|
+|æ      |A*E    |
+|ø      |O*E    |
+|å      |A*U    |
+
 # Todo
-* Document fingerspelling
+* Sort words
 * Add words
 * Add briefs
