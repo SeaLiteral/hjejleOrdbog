@@ -1,5 +1,6 @@
 # hjejleOrdbog
 A Danish stenography dictionary
+
 License: GPLv3 or later
 
 It is divided in multiple files:
@@ -25,7 +26,7 @@ As I currently switch to English Dictionaries a lot, the Dictionaries here are c
 Okay, here's the IPA representation of what each key would do on its own:
 
     s t p h * v b l d ð
-    s k v R * ɘ e g s n
+    s k v ʁ * ɘ e g s n
         a ɒ ɛ ɔ
 
 # Vowels
