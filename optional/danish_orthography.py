@@ -22,6 +22,7 @@ It requires the python dictionaries plugin to work.'''
 
 LONGEST_KEY = 2
 RELOAD_DICTIONARY_STROKE='TKPWHRES'
+DICT_FILENAMES=['PATH/TO/FILE'] # Change this to wherever you store the any Danish dictionaries
 
 mainList={}
 
@@ -32,22 +33,24 @@ You must either restart Plover or manually use RELOAD_DICTIONARY_STROKE
 if the dictionary changes when you're using it.
 Otherwise the lookup function will not see the changes.'''
     global mainList
-    with open('/home/larsrune/stenord/dansk.json')as mainDict:
-        for i in mainDict:
-            if('": "')in i:
-                j=i.split('": "')
-                iKey=j[0][1:]
-                iTrans=j[1]
-                while(iTrans[-1].isspace()):
-                    iTrans=j[1][:-1]
-                if(iTrans[-1]==','):
-                    iTrans=iTrans[:-1]
-                if(iTrans[-1]=='"'):
-                    iTrans=iTrans[:-1]
-                if(iKey.endswith('/-B')): #The dictionary defines
-                    mainList[iKey[:-3]]=iTrans # how to add the -e suffix
-                else: # we add the suffix without applying English
-                    mainList[iKey]=iTrans+'e' # orthography rules.
+    for fname in DICT_FILENAMES:
+        with open(fname)as dictFile:
+            for i in dictFile:
+                if('": "')in i:
+                    j=i.split('": "')
+                    iKey=j[0][1:]
+                    iTrans=j[1]
+                    while(iTrans[-1].isspace()):
+                        iTrans=j[1][:-1]
+                    if(iTrans[-1]==','):
+                        iTrans=iTrans[:-1]
+                    if(iTrans[-1]=='"'):
+                        iTrans=iTrans[:-1]
+                    if(iKey.endswith('/-B')): #The dictionary defines
+                        mainList[iKey[:-3]]=iTrans # how to add the -e suffix
+                    else: # we add the suffix without applying English
+                        mainList[iKey]=iTrans+'e' # orthography rules.
+
 getDict() # Setup the dictionary
 
 def hasFinal(stroke, suffix):
