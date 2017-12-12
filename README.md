@@ -72,38 +72,66 @@ The consonant combinations work more or less like in English:
 # Fingerspelling
 Here is a table for the letters used in Danish (for capital letters add -P):
 
-|letter|keys   |
-| :---: | :---: |
-|a      |A*     |
-|b      |PW*    |
-|c      |KR*    |
-|d      |TK*    |
-|e      |*E     |
-|f      |TP*    |
-|g      |TKPW*  |
-|h      |H*     |
-|i      |AO*E   |
-|i      |*EU    |
-|j      |KWR*   |
-|k      |K*     |
-|l      |HR*    |
-|m      |PH*    |
-|n      |TPH*   |
-|o      |O*     |
-|p      |P*     |
-|q      |KW*    |
-|r      |R*     |
-|s      |S*     |
-|t      |T*     |
-|u      |*U     |
-|v      |W*     |
-|w      |SR*    |
-|x      |KP*    |
-|y      |AO*U   |
-|z      |TKPWHR*|
-|æ      |A*E    |
-|ø      |O*E    |
-|å      |A*U    |
+|Letter  |Keys (English layout)|Keys (Danish layout)|
+| ------ | ------------------- | ------------------ |
+|a       |A*                   |A*                  |
+|b       |PW*                  |PV*                 |
+|c       |KR*                  |KR*                 |
+|d       |TK*                  |TK*                 |
+|e       |*EU                  |*ÆÅ                 |
+|f       |TP*                  |TP*                 |
+|g       |TKPW*                |TKPV*               |
+|h       |H*                   |H*                  |
+|i       |AO*E                 |AO*Æ                |
+|j       |KWR*                 |KVR*                |
+|k       |K*                   |K*                  |
+|l       |HR*                  |HR*                 |
+|m       |PH*                  |PH*                 |
+|n       |TPH*                 |TPH*                |
+|o       |A*U                  |A*Å                 |
+|p       |P*                   |P*                  |
+|q       |KW*                  |KV*                 |
+|r       |R*                   |R*                  |
+|s       |S*                   |S*                  |
+|t       |T*                   |T*                  |
+|u       |AO*                  |AO*                 |
+|v       |W*                   |V*                  |
+|w       |SR*                  |SR*                 |
+|x       |KP*                  |KP*                 |
+|y       |AO*U                 |AO*Å                |
+|z       |STKPW*               |STKPV*              |
+|æ       |*E                   |*Æ                  |
+|ø       |O*E                  |O*Æ                 |
+|å       |*U                   |*Å                  |
+|A       |A*P                  |A*P                 |
+|B       |PW*P                 |PV*P                |
+|C       |KR*P                 |KR*P                |
+|D       |TK*P                 |TK*P                |
+|E       |*EUP                 |*ÆÅP                |
+|F       |TP*P                 |TP*P                |
+|G       |TKPW*P               |TKPV*P              |
+|H       |H*P                  |H*P                 |
+|I       |AO*EP                |AO*ÆP               |
+|J       |KWR*P                |KVR*P               |
+|K       |K*P                  |K*P                 |
+|L       |HR*P                 |HR*P                |
+|M       |PH*P                 |PH*P                |
+|N       |TPH*P                |TPH*P               |
+|O       |A*UP                 |A*ÅP                |
+|P       |P*P                  |P*P                 |
+|Q       |KW*P                 |KV*P                |
+|R       |R*P                  |R*P                 |
+|S       |S*P                  |S*P                 |
+|T       |T*P                  |T*P                 |
+|U       |AO*P                 |AO*P                |
+|V       |W*P                  |V*P                 |
+|W       |SR*P                 |SR*P                |
+|X       |KP*P                 |KP*P                |
+|Y       |AO*UP                |AO*ÅP               |
+|Z       |STKPW*P              |STKPV*P             |
+|Æ       |*EP                  |*ÆP                 |
+|Ø       |O*EP                 |O*ÆP                |
+|Å       |*UP                  |*ÅP                 |
 
 # Todo
 * Add words
