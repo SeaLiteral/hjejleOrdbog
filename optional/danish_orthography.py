@@ -110,7 +110,16 @@ Applies suffix folding and simple orhography rules for Danish.
             keyPrefix='/'.join(key[:-1])
         keyForNow=keyPrefix+keyForNow
         if(keyForNow in mainList):
-           return(mainList[keyForNow]+'n')
+           return(mainList[keyForNow]+'t')
+    if(hasFinal(key[-1],'D')): # -ede is used for past tense
+        keyForNow=removeFinal(key[-1],'D') # and plural adjectives
+        if(keyForNow.endswith('-')):keyForNow=keyForNow[-1]
+        keyPrefix=''
+        if(len(key)>1):
+            keyPrefix='/'.join(key[:-1])
+        keyForNow=keyPrefix+keyForNow
+        if(keyForNow in mainDict):
+           return(mainDict[keyForNow]+'de')
     if(hasFinal(key[-1],'Z')): # -en is mainly used as a common-gender "the".
         keyForNow=removeFinal(key[-1],'Z')
         if(keyForNow.endswith('-')):keyForNow=keyForNow[-1]
