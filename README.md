@@ -39,7 +39,7 @@ As for vowel key combinations, here they are, and now I am just refering to what
 * AE: /æ/ (gade: TKPWA*EBD)
 * OE: /ø/ (gø: TKPWOE)
 * AU: /o/ (god: TKPWAU)
-* OU: /œ/ or /ɶ/(gør: TKPWOUR)
+* OU: /œ/ or /ɶ/(mørk: PHOURG)
 * AO: /u/ (ud: AOD)
 * EU: /e/ (vil: WEU, the *l* is silent in my accent)
 * AOE: /i/ (i: AOE)
